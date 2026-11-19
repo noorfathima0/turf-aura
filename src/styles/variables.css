@@ -1,0 +1,27 @@
+:root {
+  /* Brand (from the logo) */
+  --green-600: #0a9b3a;
+  --green-500: #6cbf1f;
+  --yellow-400: #ffe600;
+  --ink: #0b2b1a;
+  --ink-soft: #3d5a49;
+  --bg-soft: #f6fbf2;
+  --white: #ffffff;
+
+  --gradient-brand: linear-gradient(135deg, #0a9b3a 0%, #6cbf1f 55%, #ffe600 115%);
+
+  /* Type */
+  --font-heading: 'Poppins', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Shape & depth */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+  --shadow-soft: 0 10px 30px rgba(11, 43, 26, 0.12);
+  --shadow-strong: 0 25px 60px rgba(11, 43, 26, 0.28);
+
+  /* Layout */
+  --container: 1160px;
+  --nav-height: 72px;
+}
