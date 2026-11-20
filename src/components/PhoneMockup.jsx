@@ -3,7 +3,7 @@ import { MapPin, Bell, Search } from 'lucide-react'
 function PlaceholderUI() {
   const turfs = ['Greenfield Turf', 'Aura Arena']
   return (
-    <div className="mock">
+    <div className="mock" aria-hidden="true">
       <div className="mock__top">
         <span className="mock__avatar" />
         <div className="mock__hello">

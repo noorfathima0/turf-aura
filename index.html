@@ -1,45 +1,62 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="theme-color" content="#0A9B3A" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta name="theme-color" content="#0A9B3A" />
 
-    <title>Turf Aura – Book Sports Turfs Near You Instantly</title>
-    <meta
-      name="description"
-      content="Turf Aura lets you discover nearby turfs, check live slot availability and book in seconds. Download the app on the App Store and Google Play."
-    />
+  <title>Turf Aura – Book Sports Turfs Near You Instantly</title>
+  <meta
+    name="description"
+    content="Turf Aura lets you discover nearby turfs, check live slot availability and book in seconds. Download the app on the App Store and Google Play."
+  />
 
-    <!-- Open Graph / Twitter -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Turf Aura – Book your turf. Own the game." />
-    <meta property="og:description" content="Discover nearby turfs, pick a slot and play. Book instantly with the Turf Aura app." />
-    <meta property="og:image" content="/og-image.jpg" />
-    <meta name="twitter:card" content="summary_large_image" />
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Turf Aura" />
+  <meta property="og:title" content="Turf Aura – Book your turf. Own the game." />
+  <meta property="og:description" content="Discover nearby turfs, pick a slot and play. Book instantly with the Turf Aura app." />
+  <meta property="og:image" content="/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Turf Aura – Book your turf. Own the game." />
+  <meta name="twitter:description" content="Discover nearby turfs, pick a slot and play. Book instantly with the Turf Aura app." />
+  <meta name="twitter:image" content="/og-image.jpg" />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
 
-    <!-- Structured data -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "MobileApplication",
-        "name": "Turf Aura",
-        "operatingSystem": "iOS, Android",
-        "applicationCategory": "SportsApplication",
-        "description": "Discover and book sports turfs instantly.",
-        "downloadUrl": "https://play.google.com/store/apps/details?id=com.tezfo.turfaura"
-      }
-    </script>
-  </head>
+  <!-- Without JavaScript, show everything -->
+  <noscript>
+    <style>
+      [data-reveal] { opacity: 1 !important; transform: none !important; }
+      .process__path { stroke-dashoffset: 0 !important; }
+    </style>
+  </noscript>
+
+  <!-- Structured data (price comes from the App Store listing: Free) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Turf Aura",
+      "operatingSystem": "iOS, Android",
+      "applicationCategory": "SportsApplication",
+      "description": "Discover and book sports turfs instantly.",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.tezfo.turfaura",
+      "installUrl": "https://apps.apple.com/in/app/turf-aura/id6746241005",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" }
+    }
+  </script>
+</head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

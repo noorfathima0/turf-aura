@@ -1,4 +1,4 @@
-import {Zap, MapPin, Clock, RefreshCcw, ShieldCheck, Trophy } from 'lucide-react'
+import {Zap, MapPin, Clock, RefreshCcw, ShieldCheck, Trophy, Search, CalendarCheck } from 'lucide-react'
 
 export const LINKS = {
   appStore: 'https://apps.apple.com/in/app/turf-aura/id6746241005',
@@ -53,3 +53,56 @@ export const FEATURES = [
     text: 'Whether it is football, cricket or an indoor facility, find a venue that fits your sport.',
   },
 ]
+
+export const STEPS = [
+  {
+    icon: Search,
+    title: 'Find a turf',
+    text: 'Search turfs near you and explore them by location, amenities and ratings.',
+  },
+  {
+    icon: CalendarCheck,
+    title: 'Pick your slot',
+    text: 'Check real-time availability and choose the day and time that suits your game.',
+  },
+  {
+    icon: Trophy,
+    title: 'Book & play',
+    text: 'Confirm instantly with secure payment, then show up and enjoy the game.',
+  },
+]
+
+export const SCREENS = [
+  {
+    icon: MapPin,
+    title: 'Discover turfs',
+    text: 'Browse nearby turfs by location, amenities and ratings.',
+  },
+  {
+    icon: Clock,
+    title: 'Live availability',
+    text: 'See open slots in real time before you decide.',
+  },
+  {
+    icon: Zap,
+    title: 'Instant booking',
+    text: 'Pick a slot and confirm in a few taps.',
+  },
+  {
+    icon: ShieldCheck,
+    title: 'Secure payment',
+    text: 'Pay safely in the app and get your booking locked in.',
+  },
+  {
+    icon: RefreshCcw,
+    title: 'Easy changes',
+    text: 'Cancel or reschedule when plans change.',
+  },
+]
+
+export const FOOTER = {
+  blurb:
+    'Turf Aura is your all-in-one sports turf booking app. Search, book and play, with no calling and no waiting.',
+  // Add the client's real contact email to show a Contact column, e.g. 'hello@turfaura.com'
+  email: '',
+}
