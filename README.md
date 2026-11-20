@@ -2,7 +2,7 @@
 
 A modern, responsive landing page for the **Turf Aura** sports turf booking app, built for the Code Aura Tech Solutions practical task.
 
-**Live site:** https://YOUR-SITE.netlify.app
+**Live site:** https://turfaura.netlify.app
 
 ## Features
 
