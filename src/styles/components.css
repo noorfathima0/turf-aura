@@ -1158,3 +1158,19 @@
   .tile--booking strong { font-size: 0.75rem; }
   .tile--booking small { font-size: 0.68rem; }
 }
+
+/* ---------- Hero entrance (CSS-only: first paint never waits for JS) ---------- */
+@keyframes hero-in {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes hero-rise {
+  from { transform: translateY(16px); }
+  to   { transform: none; }
+}
+.hero-anim { animation: hero-in 0.7s ease both; animation-delay: var(--delay, 0s); }
+.hero-rise { animation: hero-rise 0.6s ease both; animation-delay: var(--delay, 0s); }
+/* Contrast fixes */
+.mock__hello small { opacity: 1; color: var(--ink-soft); }
+.download__eyebrow { background: rgba(5, 62, 26, 0.45); }
+.step__num::before { content: attr(data-num); }

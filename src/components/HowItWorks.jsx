@@ -65,7 +65,7 @@ export default function HowItWorks() {
                 <span className="step__node">
                   <Icon size={22} aria-hidden="true" />
                 </span>
-                <span className="step__num" aria-hidden="true">{i + 1}</span>
+                <span className="step__num" data-num={i + 1} aria-hidden="true" />
                 <div className="step__body">
                   <h3>{title}</h3>
                   <p>{text}</p>

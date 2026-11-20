@@ -15,8 +15,8 @@ export default function Hero() {
 
       <div className="container hero__stage">
         <h1 className="hero__title">
-          <span className="hero__line" data-reveal>{HERO.title}</span>
-          <span className="hero__line hero__line--accent" data-reveal style={{ '--delay': '0.1s' }}>
+          <span className="hero__line hero-rise">{HERO.title}</span>
+          <span className="hero__line hero__line--accent hero-rise" style={{ '--delay': '0.08s' }}>
             {HERO.highlight}
           </span>
         </h1>
@@ -25,7 +25,7 @@ export default function Hero() {
           <span className="hero__glow" aria-hidden="true" />
           <span className="hero__circle" aria-hidden="true" />
 
-          <div className="hero__phone" data-reveal style={{ '--delay': '0.2s' }}>
+          <div className="hero__phone hero-anim" style={{ '--delay': '0.15s' }}>
             <PhoneMockup screenshot={HERO.screenshot} />
           </div>
 
@@ -42,9 +42,9 @@ export default function Hero() {
           </div>
         </div>
 
-        <p className="hero__tagline" data-reveal>{HERO.tagline}</p>
+        <p className="hero__tagline hero-anim" style={{ '--delay': '0.25s' }}>{HERO.tagline}</p>
 
-        <div className="hero__cta" data-reveal>
+        <div className="hero__cta hero-anim" style={{ '--delay': '0.3s' }}>
           <p>{HERO.description}</p>
           <StoreButtons className="store-buttons--pill" />
         </div>
